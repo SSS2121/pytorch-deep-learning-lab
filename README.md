@@ -1,36 +1,45 @@
+
 # PyTorch Deep Learning Lab 🧠
 
-Este repositorio es una bitácora técnica de mi aprendizaje en **Deep Learning con PyTorch**. Aquí documento la evolución desde la manipulación fundamental de tensores hasta la implementación y entrenamiento de arquitecturas de Redes Neuronales Convolucionales (CNN) y modelos de clasificación de lenguaje.
+[EN] This repository is a technical log of my learning journey in Deep Learning with PyTorch. It documents the evolution from fundamental tensor manipulation to the implementation of Convolutional Neural Networks (CNN), Natural Language Processing, and Graph Analytics.
 
-## Contenido del Repositorio
-
-### 1. Fundamentos de Tensores (`tensor_basics_guide.py`)
-Exploración de la estructura de datos core de PyTorch.
-- Creación y manipulación de tensores (`zeros`, `ones`, `randn_like`).
-- Conversión de tipos (Float, Long, Double) y gestión de dispositivos (CPU vs CUDA).
-- Técnicas de *reshaping* (`unsqueeze`, `squeeze`, `flatten`) esenciales para el pre-procesamiento de datos.
-
-### 2. Arquitecturas Clásicas: LeNet (`lenet_mnist_classification.py` & `lenet_cifar10_color.py`)
-Implementación de la arquitectura **LeNet** para tareas de visión artificial:
-- **MNIST:** Clasificación de dígitos manuscritos (escala de grises).
-- **CIFAR-10:** Clasificación de imágenes a color.
-- **Conceptos aplicados:** Capas convolucionales (`nn.Conv2d`), capas de pooling, funciones de activación (`ReLU`, `tanh`) y optimizadores (`Adam`, `SGD`).
-
-### 3. NLP & Chatbot con Redes Neuronales (`neural_chatbot_intents.py`)
-Desarrollo de un chatbot inteligente basado en intenciones:
-- **Pre-procesamiento:** Limpieza de texto, tokenización y vectorización (*Bag-of-Words*).
-- **Modelo:** Red neuronal densa (MLP) con capas de BatchNorm y Dropout para mejorar la generalización.
-- **Flujo:** Entrenamiento de 80 épocas con gestión de `LabelEncoder` y evaluación con umbrales de confianza (*thresholding*).
-
-## Tecnologías utilizadas
-* **Deep Learning:** PyTorch, TorchVision.
-* **Procesamiento:** NumPy, Scikit-learn.
-* **Visualización:** Matplotlib, NetworkX (para representación de grafos de arquitectura).
-
-## Lo que este repositorio demuestra
-* Habilidad para diseñar arquitecturas de red (*forward pass*).
-* Comprensión del ciclo de entrenamiento (`optimizer.zero_grad`, `loss.backward`, `step`).
-* Capacidad de aplicar modelos tanto a datos tabulares (NLP) como a datos visuales (Imágenes).
+[ES] Este repositorio es una bitácora técnica de mi aprendizaje en Deep Learning con PyTorch. Documenta la evolución desde la manipulación fundamental de tensores hasta la implementación de Redes Neuronales Convolucionales (CNN), Procesamiento de Lenguaje Natural y Análisis de Grafos.
 
 ---
-*Desarrollado como parte de mi ruta de especialización en Inteligencia Artificial.*
+
+## Content / Contenido
+
+### 1. Tensor Fundamentals / Fundamentos de Tensores (`tensor_basics_guide.py`)
+- **[EN]** Core data structures, reshaping (squeeze/flatten), and device management (CPU/CUDA).
+- **[ES]** Estructuras de datos core, reshaping y gestión de dispositivos.
+
+### 2. Classic Architectures / Arquitecturas Clásicas: LeNet
+- **[EN]** MNIST & CIFAR-10 classification using CNNs (Conv2d, Pooling, ReLU).
+- **[ES]** Clasificación de MNIST y CIFAR-10 usando CNNs.
+
+### 3. NLP & Neural Chatbot / Chatbot con Redes Neuronales (`neural_chatbot_intents.py`)
+- **[EN]** Intent-based chatbot using MLPs, tokenization, and BatchNorm.
+- **[ES]** Chatbot basado en intenciones usando MLPs, tokenización y BatchNorm.
+
+### 4. Visual Similarity & Graph Analytics / Análisis de Similitud Visual y Grafos (`pytorch_visual_graph_similarity.ipynb`)
+- **[EN] Embedding Extraction**: Using pre-trained **ResNet-18** as a feature extractor.
+- **[EN] K-NN Graphs**: Constructing visual networks using Euclidean distances.
+- **[EN] Edge Pruning**: Optimizing topology via statistical thresholding with **NetworkX**.
+- **[ES] Extracción de Embeddings**: Uso de **ResNet-18** pre-entrenada como extractor de características.
+- **[ES] Grafos K-NN**: Construcción de redes de similitud visual mediante distancias Euclidianas.
+- **[ES] Podado de Aristas**: Optimización de la topología del grafo mediante umbrales estadísticos.
+
+## Tech Stack / Tecnologías
+- **Deep Learning**: PyTorch, Torchvision.
+- **Graph Analytics**: NetworkX.
+- **Processing & Viz**: NumPy, Scikit-learn, Matplotlib.
+
+## Skills Demonstrated / Habilidades Demostradas
+- **[EN]** Designing neural architectures and custom training loops.
+- **[EN]** Understanding high-dimensional data representations (embeddings).
+- **[ES]** Diseño de arquitecturas neuronales y ciclos de entrenamiento.
+- **[ES]** Comprensión de representaciones de datos en alta dimensión (embeddings).
+
+---
+Developed as part of my specialization in Artificial Intelligence. / Desarrollado como parte de mi especialización en Inteligencia Artificial.
+```
