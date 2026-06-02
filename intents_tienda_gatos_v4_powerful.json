@@ -1,0 +1,919 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "holaa",
+        "holi",
+        "buenas",
+        "buen dia",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "hey",
+        "hello",
+        "quiubo",
+        "miau",
+        "saludos",
+        "que tal",
+        "hola michi bot"
+      ],
+      "responses": [
+        "Hola! Soy tu asesor virtual de Gatitos Cali. Puedo ayudarte a elegir rascadores, camas, hamacas, gimnasios o cotizar arreglo de rascadores.",
+        "Hola! Cuéntame que necesita tu gato o que producto te gusto y te ayudo a avanzar hasta WhatsApp si deseas comprar."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "chao",
+        "adios",
+        "hasta luego",
+        "nos vemos",
+        "gracias",
+        "muchas gracias",
+        "mil gracias",
+        "eso era todo",
+        "listo gracias",
+        "ok gracias",
+        "perfecto gracias",
+        "te agradezco",
+        "bye",
+        "me retiro",
+        "hablamos luego"
+      ],
+      "responses": [
+        "Con gusto! Cuando quieras consentir a tu gato, estoy aqui para ayudarte.",
+        "Gracias por visitarnos. Te esperamos para encontrar o restaurar el espacio favorito de tu gato."
+      ]
+    },
+    {
+      "tag": "productos_general",
+      "patterns": [
+        "que venden",
+        "que productos tienen",
+        "muestrame productos",
+        "quiero ver productos",
+        "hola quiero ver el catalogo",
+        "buenas quiero mirar opciones",
+        "que opciones manejan",
+        "que modelos tienen",
+        "tienen catalogo",
+        "quiero conocer el catalogo",
+        "muestrame el catalogo",
+        "necesito ver referencias",
+        "que hay disponible para gatos",
+        "que articulos tienen para gatos",
+        "que puedo comprar para mi gato",
+        "quiero ver rascadores camas hamacas y gimnasios"
+      ],
+      "responses": [
+        "Tenemos rascadores, camas nido, hamacas de ventana y gimnasios. Si me dices como es tu gato, te recomiendo una opcion.",
+        "Nuestro catalogo tiene productos para rascar, dormir, trepar, mirar por la ventana y jugar. Puedo ayudarte a elegir segun tu gato."
+      ]
+    },
+    {
+      "tag": "intencion_compra",
+      "patterns": [
+        "quiero comprar",
+        "hola quiero comprar",
+        "buenas quiero comprar",
+        "quiero hacer un pedido",
+        "quiero cerrar pedido",
+        "quiero finalizar la compra",
+        "me interesa comprar",
+        "me lo llevo",
+        "lo quiero",
+        "quiero encargar uno",
+        "como hago el pedido",
+        "como compro",
+        "quiero pedirlo",
+        "quiero reservar",
+        "comprar ahora",
+        "necesito comprar un producto",
+        "me gusto ese producto",
+        "pasame a comprar"
+      ],
+      "responses": [
+        "Excelente. Para completar la compra podemos pasar a WhatsApp y confirmar producto, color, ciudad, envio y metodo de pago.",
+        "Perfecto. Dime que producto te gusto o enviame el nombre y te ayudo a dejar el mensaje listo para WhatsApp."
+      ]
+    },
+    {
+      "tag": "whatsapp_cierre",
+      "patterns": [
+        "whatsapp",
+        "pasame a whatsapp",
+        "quiero hablar por whatsapp",
+        "hola quiero whatsapp",
+        "buenas pasame con un asesor",
+        "quiero hablar con un asesor",
+        "necesito un asesor",
+        "quiero hablar con una persona",
+        "atiende una persona",
+        "me puede escribir un vendedor",
+        "quiero que me contacten",
+        "mandame el numero",
+        "dame el contacto",
+        "quiero cerrar por whatsapp",
+        "pasame con alguien",
+        "asesoria por whatsapp"
+      ],
+      "responses": [
+        "Claro. Te puedo conectar por WhatsApp para confirmar disponibilidad, colores, envio y cerrar tu pedido.",
+        "Listo, el siguiente paso es WhatsApp. Alli revisamos el producto exacto, datos de entrega y forma de pago."
+      ]
+    },
+    {
+      "tag": "precios",
+      "patterns": [
+        "precio",
+        "precios",
+        "cuanto vale",
+        "cuanto cuesta",
+        "hola cuanto vale",
+        "buenas cuanto cuesta",
+        "valor del producto",
+        "dame precios",
+        "quiero saber el precio",
+        "que precio tiene",
+        "cuanto valen los rascadores",
+        "cuanto vale una hamaca",
+        "cuanto vale un gimnasio",
+        "precio de camas",
+        "precio de rascadores",
+        "tienen lista de precios",
+        "cotizacion de producto",
+        "quiero cotizar un producto"
+      ],
+      "responses": [
+        "Los precios dependen del modelo, tamaño y personalizacion. Dime que categoria o producto te interesa y te oriento.",
+        "Tenemos opciones economicas y completas. Si me dices que buscas, te ayudo a encontrar un rango y luego confirmamos disponibilidad por WhatsApp."
+      ]
+    },
+    {
+      "tag": "disponibilidad",
+      "patterns": [
+        "hay disponible",
+        "tienen disponibilidad",
+        "esta disponible",
+        "hay stock",
+        "tienen en existencia",
+        "lo tienen listo",
+        "esta para entrega inmediata",
+        "hay para hoy",
+        "tienen colores disponibles",
+        "que colores hay",
+        "hay inventario",
+        "cuanto tarda si no hay disponible",
+        "se fabrica bajo pedido",
+        "me confirmas disponibilidad",
+        "hola hay disponibilidad",
+        "buenas tienen stock"
+      ],
+      "responses": [
+        "La disponibilidad puede cambiar por modelo y color. Dime cual te gusto y lo confirmamos por WhatsApp antes de cerrar.",
+        "Puedo orientarte aqui, pero el stock final lo confirmamos por WhatsApp con producto, color y ciudad."
+      ]
+    },
+    {
+      "tag": "envios",
+      "patterns": [
+        "hacen envios",
+        "tienen domicilio",
+        "envian a bogota",
+        "envian a medellin",
+        "envian a cali",
+        "envian a palmira",
+        "envian a jamundi",
+        "envian a barranquilla",
+        "envian a pereira",
+        "envios nacionales",
+        "cuanto demora el envio",
+        "costo de envio",
+        "tarifa de domicilio",
+        "entregan en mi ciudad",
+        "hola hacen envios",
+        "buenas entregan a domicilio"
+      ],
+      "responses": [
+        "Si, hacemos envios. Para darte costo y tiempo exacto necesito ciudad o barrio y el producto de interes.",
+        "Podemos coordinar envio. Lo confirmamos por WhatsApp con tu ciudad, producto, disponibilidad y forma de pago."
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "como puedo pagar",
+        "metodos de pago",
+        "reciben nequi",
+        "reciben daviplata",
+        "reciben bancolombia",
+        "pago contra entrega",
+        "contraentrega",
+        "pago en efectivo",
+        "pago con transferencia",
+        "pago con tarjeta",
+        "pse",
+        "abono",
+        "se puede separar",
+        "puedo pagar al recibir",
+        "hola como pago",
+        "buenas manejan pago digital"
+      ],
+      "responses": [
+        "Manejamos opciones de pago segun ciudad y pedido. Lo ideal es confirmarlo por WhatsApp antes de despachar.",
+        "Podemos revisar pago digital o contra entrega segun disponibilidad y ubicacion. Te ayudo a dejar el pedido listo."
+      ]
+    },
+    {
+      "tag": "garantia",
+      "patterns": [
+        "tienen garantia",
+        "garantia del producto",
+        "que pasa si llega dañado",
+        "que pasa si se rompe",
+        "viene defectuoso",
+        "producto defectuoso",
+        "fallas de fabricacion",
+        "me cubre garantia",
+        "cuanto dura la garantia",
+        "si falla que hago",
+        "reclamo por garantia",
+        "postventa",
+        "calidad garantizada",
+        "hola tiene garantia",
+        "buenas cubren defectos"
+      ],
+      "responses": [
+        "Tenemos garantia por defectos de fabricacion. Si algo ocurre, un asesor revisa fotos y datos del pedido por WhatsApp.",
+        "La garantia protege tu compra ante fallas de fabricacion. Antes de comprar podemos confirmar condiciones exactas por WhatsApp."
+      ]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": [
+        "donde estan ubicados",
+        "ubicacion",
+        "direccion",
+        "tienen local",
+        "tienen tienda fisica",
+        "estan en cali",
+        "puedo recoger",
+        "punto de entrega",
+        "donde puedo reclamar",
+        "donde queda la tienda",
+        "tienen sede",
+        "puedo ir personalmente",
+        "recogen en fabrica",
+        "hola donde estan",
+        "buenas tienen direccion"
+      ],
+      "responses": [
+        "Estamos en Cali y atendemos pedidos por WhatsApp. Alli confirmamos si aplica recogida o envio.",
+        "Para darte el punto correcto, lo mejor es escribirnos por WhatsApp con tu ciudad y producto de interes."
+      ]
+    },
+    {
+      "tag": "rascadores_info",
+      "patterns": [
+        "quiero un rascador",
+        "necesito un rascador",
+        "hola necesito rascador",
+        "buenas quiero un rascador para mi gato",
+        "rascador para gato",
+        "rascadores para gatos",
+        "arañador para gato",
+        "aranador para gato",
+        "mi gato rasca el sofa",
+        "mi gato daña los muebles",
+        "quiero proteger mis muebles",
+        "necesito algo para sus uñas",
+        "busco algo para que rasque",
+        "quiero ver rascadores",
+        "muestrame rascadores",
+        "cual rascador recomiendan"
+      ],
+      "responses": [
+        "Los rascadores ayudan a afilar uñas, liberar energia y proteger muebles. Tenemos opciones compactas, con cama, tunel, canoa y plataformas.",
+        "Un rascador es ideal si tu gato esta dañando muebles o necesita juego diario. Puedo llevarte a la seccion de rascadores."
+      ]
+    },
+    {
+      "tag": "rascadores_recomendacion",
+      "patterns": [
+        "que rascador me recomiendas",
+        "cual rascador es mejor",
+        "ayudame a elegir rascador",
+        "rascador para gato pequeño",
+        "rascador para gato grande",
+        "rascador para apartamento",
+        "rascador economico",
+        "rascador resistente",
+        "rascador con cama",
+        "rascador con tunel",
+        "rascador para gato activo",
+        "rascador para gato dormilon",
+        "quiero comparar rascadores",
+        "no se que rascador comprar",
+        "buenas cual rascador conviene"
+      ],
+      "responses": [
+        "Para elegir rascador, dime tamaño o peso del gato, si es activo o dormilon, espacio disponible y presupuesto aproximado.",
+        "Si quieres algo compacto mira Mini o Estampado; si quieres juego y descanso mira Tunel, Canoa o Rascador Cama."
+      ]
+    },
+    {
+      "tag": "proteccion_muebles",
+      "patterns": [
+        "mi gato rasca el sofa",
+        "mi gato rasca el sillon",
+        "mi gato daña cortinas",
+        "mi gato rasguña muebles",
+        "como evito que rasque el sofa",
+        "necesito proteger mis muebles",
+        "rompe la silla",
+        "rasca la cama",
+        "destruye la alfombra",
+        "quiero redirigir el rascado",
+        "que hago si rasca todo",
+        "como cuidar mis muebles",
+        "superficie para uñas",
+        "mi gato no usa rascador",
+        "hola mi gato me daña los muebles"
+      ],
+      "responses": [
+        "Un rascador ayuda a redirigir el instinto natural. Ponlo cerca del mueble que daña y premialo cuando lo use.",
+        "Para proteger muebles conviene una superficie atractiva: sisal, fique o un gimnasio con postes de rascado."
+      ]
+    },
+    {
+      "tag": "producto_rascador_mini",
+      "patterns": [
+        "rascador mini",
+        "quiero el rascador mini",
+        "precio rascador mini",
+        "medidas rascador mini",
+        "rascador pequeño",
+        "rascador compacto",
+        "rascador barato",
+        "rascador economico",
+        "rascador para poco espacio",
+        "rascador sencillo",
+        "mini para apartamento",
+        "hola quiero el mini",
+        "buenas me interesa el rascador mini"
+      ],
+      "responses": [
+        "El Rascador Mini es compacto, economico y perfecto para espacios pequeños. Sirve para rascar sin ocupar mucho lugar.",
+        "Si buscas algo sencillo para empezar, el Rascador Mini es buena entrada: base comoda, poste de sisal y tamaño practico."
+      ]
+    },
+    {
+      "tag": "producto_rascador_tunel",
+      "patterns": [
+        "rascador tunel",
+        "quiero el rascador tunel",
+        "precio rascador tunel",
+        "medidas rascador tunel",
+        "rascador con tunel",
+        "rascador con escondite",
+        "rascador para gato curioso",
+        "rascador para esconderse",
+        "mi gato ama cajas",
+        "mi gato se mete en huecos",
+        "tunel para gato",
+        "hola quiero el rascador tunel",
+        "buenas me interesa el tunel"
+      ],
+      "responses": [
+        "El Rascador Tunel es ideal para gatos curiosos: pueden esconderse, trepar, jugar y rascar en el mismo mueble.",
+        "Si tu gato ama cajas o rincones, el Rascador Tunel le da escondite, juego y zona de rascado."
+      ]
+    },
+    {
+      "tag": "producto_rascador_cama",
+      "patterns": [
+        "rascador cama",
+        "rascador cama circular",
+        "rascador cama cuadrado",
+        "quiero rascador con cama",
+        "precio rascador cama",
+        "rascador para dormir",
+        "rascador con descanso",
+        "rascador elevado con cama",
+        "mi gato duerme mucho",
+        "mi gato quiere cama y rascador",
+        "rascador comodo",
+        "hola quiero rascador cama",
+        "buenas me gusta el rascador cama"
+      ],
+      "responses": [
+        "El Rascador Cama une descanso y rascado. Tu gato puede rascar, jugar y dormir en altura.",
+        "Si tu gato es dormilon pero tambien necesita rascar, el Rascador Cama Circular o Cuadrado es una opcion muy completa."
+      ]
+    },
+    {
+      "tag": "producto_rascador_fique",
+      "patterns": [
+        "rascador en fique",
+        "rascador de fique",
+        "quiero rascador natural",
+        "rascador resistente en fique",
+        "precio rascador fique",
+        "fique para rascar",
+        "textura natural",
+        "rascador rustico",
+        "rascador firme",
+        "mi gato rasca fuerte",
+        "material natural para uñas",
+        "hola me interesa el fique",
+        "buenas tienen rascador en fique"
+      ],
+      "responses": [
+        "El Rascador en fique tiene acabado natural y superficie firme para gatos que rascan fuerte.",
+        "Si buscas algo resistente y practico, el rascador en fique es buena opcion por su textura natural."
+      ]
+    },
+    {
+      "tag": "camas_info",
+      "patterns": [
+        "quiero una cama",
+        "cama para gato",
+        "camas para gatos",
+        "cama nido",
+        "cama nido pequeña",
+        "cama nido grande",
+        "mi gato quiere dormir",
+        "mi gato busca refugio",
+        "cama abrigada",
+        "cama calientica",
+        "cama comoda",
+        "muestrame camas",
+        "hola quiero una cama para gato",
+        "buenas tienen camas nido"
+      ],
+      "responses": [
+        "Las camas nido son ideales para gatos que aman dormir abrigados y sentirse protegidos. Tenemos tamaño pequeño y grande.",
+        "Si tu gato busca refugio y descanso, una cama nido es perfecta para darle calor y tranquilidad."
+      ]
+    },
+    {
+      "tag": "hamacas_info",
+      "patterns": [
+        "quiero una hamaca",
+        "hamaca para gato",
+        "hamaca de ventana",
+        "hamaca con ventosas",
+        "hamaquita para ventana",
+        "mi gato mira por la ventana",
+        "mi gato ama el sol",
+        "cama para ventana",
+        "descanso en ventana",
+        "mirador para gato",
+        "precio hamaca",
+        "muestrame hamacas",
+        "hola quiero una hamaca",
+        "buenas tienen hamacas"
+      ],
+      "responses": [
+        "La hamaca de ventana es ideal para gatos que aman mirar hacia afuera. Tiene ventosas y superficie comoda para descansar.",
+        "Si tu gato pasa tiempo en la ventana, la hamaca le da un espacio elevado, comodo y entretenido sin ocupar piso."
+      ]
+    },
+    {
+      "tag": "gimnasios_info",
+      "patterns": [
+        "quiero un gimnasio",
+        "gimnasio para gato",
+        "gimnasios para gatos",
+        "arbol para gato",
+        "torre para gato",
+        "gimnasio con niveles",
+        "mueble para trepar",
+        "mi gato necesita ejercicio",
+        "mi gato quiere trepar",
+        "muestrame gimnasios",
+        "gimnasio completo",
+        "hola quiero un gimnasio",
+        "buenas tienen gimnasios",
+        "gimnacio para gato"
+      ],
+      "responses": [
+        "Los gimnasios son muebles completos para trepar, rascar, esconderse y descansar. Son ideales para gatos activos o varios gatos.",
+        "Si tu gato tiene mucha energia, un gimnasio le da actividad vertical, refugio y zonas de descanso en un solo producto."
+      ]
+    },
+    {
+      "tag": "producto_gimnasio_5_niveles",
+      "patterns": [
+        "gimnasio 5 niveles",
+        "gimnasio cinco niveles",
+        "quiero gimnasio 5 niveles",
+        "precio gimnasio 5 niveles",
+        "gimnasio alto",
+        "gimnasio grande",
+        "gimnasio con rampas",
+        "gimnasio con escalera",
+        "gimnasio para varios gatos",
+        "gimnasio completo premium",
+        "mi gato es muy activo",
+        "hola quiero el 5 niveles",
+        "buenas me interesa el gimnasio 5 niveles"
+      ],
+      "responses": [
+        "El Gimnasio 5 Niveles es perfecto para gatos activos o varios gatos. Tiene altura, rampas, escalera, casa y zonas de juego.",
+        "Si quieres una opcion completa y llamativa, el Gimnasio 5 Niveles ofrece ejercicio, descanso y territorio propio."
+      ]
+    },
+    {
+      "tag": "producto_gimnasio_casa",
+      "patterns": [
+        "gimnasio casa",
+        "gimnasio con casa",
+        "gimnasio casa tunel",
+        "quiero gimnasio con refugio",
+        "gimnasio para gato timido",
+        "gimnasio para esconderse",
+        "precio gimnasio casa",
+        "gimnasio con casita",
+        "mi gato se esconde",
+        "mi gato es nervioso",
+        "gimnasio seguro",
+        "hola quiero gimnasio casa",
+        "buenas me interesa el gimnasio con casa"
+      ],
+      "responses": [
+        "El Gimnasio Casa es ideal para gatos que disfrutan esconderse y sentirse seguros, pero tambien quieren trepar y rascar.",
+        "Si tu gato es timido o le gustan los refugios, un gimnasio con casa le da descanso protegido y juego en altura."
+      ]
+    },
+    {
+      "tag": "gato_grande_pesado",
+      "patterns": [
+        "mi gato es grande",
+        "mi gato es pesado",
+        "mi gato pesa 6 kilos",
+        "mi gato pesa 7 kilos",
+        "mi gato pesa 8 kilos",
+        "tengo un gato gordo",
+        "tengo un gato gordito",
+        "gato robusto",
+        "gato corpulento",
+        "maine coon",
+        "gato con sobrepeso",
+        "necesito algo estable",
+        "base firme para gato grande",
+        "hola mi gato pesa mucho",
+        "buenas tengo un gato grandote"
+      ],
+      "responses": [
+        "Para gatos grandes conviene priorizar estabilidad, base amplia y buena altura. Puedo recomendarte un gimnasio o rascador resistente.",
+        "Si tu gato es pesado, busquemos productos con base firme y plataformas comodas para que pueda rascar y descansar seguro."
+      ]
+    },
+    {
+      "tag": "gato_activo",
+      "patterns": [
+        "mi gato es activo",
+        "mi gato tiene mucha energia",
+        "mi gato corre mucho",
+        "mi gato salta mucho",
+        "mi gato trepa todo",
+        "mi gato es jugueton",
+        "gato hiperactivo",
+        "gato travieso",
+        "necesita entretenimiento",
+        "necesita ejercicio",
+        "quiero cansarlo jugando",
+        "busco algo interactivo",
+        "hola mi gato es muy activo",
+        "buenas mi gato juega mucho"
+      ],
+      "responses": [
+        "Para un gato activo, lo mejor es un gimnasio con varios niveles, tunel, rampas o plataformas.",
+        "Si tu gato juega mucho, un gimnasio o rascador con tunel le da movimiento, rascado y descanso."
+      ]
+    },
+    {
+      "tag": "gato_timido",
+      "patterns": [
+        "mi gato es timido",
+        "mi gato es miedoso",
+        "mi gato es nervioso",
+        "mi gato se esconde",
+        "mi gato busca refugio",
+        "gato asustadizo",
+        "gato introvertido",
+        "necesita escondite",
+        "quiere una cueva",
+        "le gustan las cajas",
+        "busco algo cerrado",
+        "algo para que se sienta seguro",
+        "hola mi gato es nervioso",
+        "buenas mi gato se esconde mucho"
+      ],
+      "responses": [
+        "Para gatos timidos funcionan muy bien las camas nido, tuneles y gimnasios con casa porque les dan seguridad.",
+        "Si tu gato se esconde mucho, te recomiendo cama nido, rascador tunel o gimnasio con casa."
+      ]
+    },
+    {
+      "tag": "espacio_pequeno",
+      "patterns": [
+        "tengo poco espacio",
+        "apartamento pequeño",
+        "apartamento pequeno",
+        "habitacion pequeña",
+        "habitacion pequena",
+        "espacio reducido",
+        "algo compacto",
+        "que no ocupe mucho",
+        "producto pequeño",
+        "producto pequeno",
+        "opcion para sala pequeña",
+        "necesito algo para esquina",
+        "hola tengo poco espacio",
+        "buenas vivo en apartamento pequeño"
+      ],
+      "responses": [
+        "Para espacios pequeños te recomiendo Rascador Mini, Rascador Estampado o Hamaca de ventana.",
+        "Si tienes poco espacio, podemos buscar una opcion compacta que cumpla su funcion sin ocupar demasiado."
+      ]
+    },
+    {
+      "tag": "varios_gatos",
+      "patterns": [
+        "tengo dos gatos",
+        "tengo tres gatos",
+        "tengo varios gatos",
+        "mas de un gato",
+        "muchos gatos",
+        "mis gatos comparten",
+        "producto para dos gatos",
+        "gimnasio para varios gatos",
+        "rascador para varios gatos",
+        "para una manada",
+        "mis gatos pelean por espacio",
+        "necesito varios niveles",
+        "hola tengo varios gatos",
+        "buenas tengo dos michis"
+      ],
+      "responses": [
+        "Para varios gatos conviene un gimnasio amplio con varios niveles para que cada uno tenga su espacio.",
+        "Si tienes mas de un gato, te recomiendo opciones grandes como gimnasios de varios niveles o camas flotantes."
+      ]
+    },
+    {
+      "tag": "comparar_productos",
+      "patterns": [
+        "que me recomiendas",
+        "cual me conviene",
+        "ayudame a elegir",
+        "no se cual comprar",
+        "compara productos",
+        "rascador o gimnasio",
+        "cama o hamaca",
+        "gimnasio o rascador",
+        "cual es mejor",
+        "cual es ideal para mi gato",
+        "quiero una recomendacion",
+        "necesito orientacion",
+        "hola que recomiendas",
+        "buenas ayudame a escoger"
+      ],
+      "responses": [
+        "Rascador: protege muebles y afila uñas. Cama: descanso. Hamaca: ventana y relax. Gimnasio: juego, rascado y descanso completo.",
+        "Para recomendarte bien dime tamaño o peso, energia, espacio disponible y presupuesto aproximado."
+      ]
+    },
+    {
+      "tag": "objecion_precio",
+      "patterns": [
+        "esta caro",
+        "muy caro",
+        "busco algo barato",
+        "algo economico",
+        "presupuesto bajo",
+        "quiero gastar poco",
+        "opcion mas economica",
+        "tienen descuento",
+        "hay oferta",
+        "me sale costoso",
+        "no tengo tanto presupuesto",
+        "algo mas barato",
+        "hola busco algo economico",
+        "buenas quiero algo barato"
+      ],
+      "responses": [
+        "Claro, podemos buscar una opcion mas economica. Para empezar funcionan bien los rascadores compactos o estampados.",
+        "Dime tu presupuesto aproximado y te recomiendo la mejor opcion sin sacrificar utilidad para tu gato."
+      ]
+    },
+    {
+      "tag": "objecion_lo_pienso",
+      "patterns": [
+        "lo voy a pensar",
+        "despues miro",
+        "luego decido",
+        "no estoy seguro",
+        "tengo que pensarlo",
+        "lo consulto",
+        "tal vez despues",
+        "aun no estoy convencido",
+        "primero quiero mirar",
+        "dejamelo pensar",
+        "vuelvo luego",
+        "mas tarde compro",
+        "hola solo estoy mirando",
+        "buenas estoy revisando"
+      ],
+      "responses": [
+        "Claro. Si quieres, te dejo una recomendacion segun tu gato para que decidas con mas seguridad.",
+        "Sin problema. Antes de irte puedo ayudarte a comparar dos opciones para que sepas cual conviene mas."
+      ]
+    },
+    {
+      "tag": "personalizacion",
+      "patterns": [
+        "se puede personalizar",
+        "personalizan productos",
+        "quiero otro color",
+        "quiero otra medida",
+        "pueden cambiar el diseño",
+        "pueden hacerlo mas grande",
+        "pueden hacerlo mas pequeño",
+        "quiero un color especial",
+        "tienen morado",
+        "tienen naranja",
+        "puedo elegir tela",
+        "puedo elegir acabado",
+        "hola se puede personalizar",
+        "buenas quiero modificar un modelo"
+      ],
+      "responses": [
+        "Si, varios productos son personalizables en color, medidas o diseño. Lo confirmamos por WhatsApp segun el modelo.",
+        "Podemos revisar personalizacion. Dime que producto te gusto y que cambio necesitas."
+      ]
+    },
+    {
+      "tag": "medidas",
+      "patterns": [
+        "medidas",
+        "dimensiones",
+        "alto ancho largo",
+        "cuanto mide",
+        "que tamaño tiene",
+        "que tamano tiene",
+        "cabe en mi espacio",
+        "medidas del rascador",
+        "medidas de la cama",
+        "medidas de la hamaca",
+        "medidas del gimnasio",
+        "necesito saber si cabe",
+        "hola que medidas tiene",
+        "buenas cuanto mide"
+      ],
+      "responses": [
+        "Las medidas dependen del producto. Si me dices el modelo que te gusto, te ayudo con alto, ancho y si cabe en tu espacio.",
+        "Puedo ayudarte con medidas. Dime donde lo pondrias y el tamaño aproximado de tu gato."
+      ]
+    },
+    {
+      "tag": "materiales",
+      "patterns": [
+        "materiales",
+        "de que material es",
+        "que materiales usan",
+        "usa sisal",
+        "usa fique",
+        "tipo de tela",
+        "que felpa usan",
+        "base en madera",
+        "material resistente",
+        "superficie para rascar",
+        "textura del rascador",
+        "calidad de materiales",
+        "hola que material tiene",
+        "buenas de que esta hecho"
+      ],
+      "responses": [
+        "Nuestros productos combinan superficies para rascar como sisal o fique, bases firmes y zonas suaves para descanso.",
+        "El material cambia por producto: rascadores priorizan superficie firme para uñas; camas y hamacas priorizan suavidad."
+      ]
+    },
+    {
+      "tag": "cuidado_mantenimiento",
+      "patterns": [
+        "como se limpia",
+        "como limpiarlo",
+        "mantenimiento",
+        "cuidado del producto",
+        "como quitar pelos",
+        "se puede lavar",
+        "como conservarlo",
+        "evitar humedad",
+        "limpiar felpa",
+        "limpiar sisal",
+        "cuidado de hamaca",
+        "cuidado de cama",
+        "hola como lo limpio",
+        "buenas como se mantiene"
+      ],
+      "responses": [
+        "Para cuidar el producto, limpia pelos con cepillo o paño seco y evita exceso de humedad.",
+        "Te recomendamos limpieza frecuente de pelos y ubicar el producto en un lugar seco para que dure mas."
+      ]
+    },
+    {
+      "tag": "servicio_reparacion",
+      "patterns": [
+        "arreglo de rascadores",
+        "arreglan rascadores",
+        "reparacion de rascadores",
+        "reparan rascadores",
+        "restauracion de rascadores",
+        "restauran rascadores",
+        "remodelacion de rascadores",
+        "remodelan rascadores",
+        "quiero arreglar mi rascador",
+        "necesito reparar mi rascador",
+        "mi rascador esta dañado",
+        "mi rascador esta danado",
+        "mi rascador esta viejo",
+        "mi rascador esta usado",
+        "quiero darle segunda vida",
+        "cambio de felpa",
+        "cambiar felpa",
+        "cambio de tapizado",
+        "retapizar rascador",
+        "reemplazo de sisal",
+        "cambiar cuerda de sisal",
+        "poste roto",
+        "base rota",
+        "base dañada",
+        "estructura dañada",
+        "reforzar base",
+        "refuerzo de plataformas",
+        "quiero enviar fotos de mi rascador",
+        "cotizar arreglo de rascador",
+        "cuanto vale reparar un rascador",
+        "hola quiero arreglar mi rascador",
+        "buenas reparan rascadores",
+        "hola necesito cambiar sisal y felpa",
+        "buenas quiero cotizar remodelacion"
+      ],
+      "responses": [
+        "Si, tenemos servicio de arreglo, restauracion y remodelacion de rascadores. Podemos revisar cambio de felpa, sisal, refuerzo de bases y mejoras esteticas.",
+        "Podemos ayudarte a recuperar tu rascador. Lo ideal es enviarnos fotos para revisar el estado y cotizar las opciones disponibles."
+      ]
+    },
+    {
+      "tag": "quejas_retraso",
+      "patterns": [
+        "mi pedido no llega",
+        "pedido retrasado",
+        "no ha llegado mi pedido",
+        "tengo un problema con mi pedido",
+        "hubo retraso",
+        "se demoraron",
+        "quiero seguimiento",
+        "estado de mi pedido",
+        "pedido incompleto",
+        "llego dañado",
+        "llego danado",
+        "necesito reclamar",
+        "hola tengo problema con pedido",
+        "buenas mi pedido esta retrasado"
+      ],
+      "responses": [
+        "Lamento el inconveniente. Para revisar tu pedido necesitamos pasar a WhatsApp con nombre, ciudad y comprobante si lo tienes.",
+        "Vamos a ayudarte. Escribenos por WhatsApp para revisar el estado del pedido y darte una solucion."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "no entiendo",
+        "tengo una duda",
+        "puedes ayudarme",
+        "necesito ayuda",
+        "no se que preguntar",
+        "informacion",
+        "dime mas",
+        "cuentame",
+        "orientame",
+        "tengo otra pregunta",
+        "ayuda general",
+        "no encuentro lo que busco",
+        "me puedes guiar",
+        "que puedes hacer"
+      ],
+      "responses": [
+        "Puedo ayudarte con productos, precios, envios, pagos, garantia, recomendaciones o arreglo de rascadores. Dime que necesitas.",
+        "Cuéntame si buscas comprar, comparar productos, cotizar reparacion o resolver una duda de envio/pago."
+      ]
+    }
+  ]
+}
